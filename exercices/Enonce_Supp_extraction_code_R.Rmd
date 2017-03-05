@@ -1,0 +1,30 @@
+---
+title: 'Exercice supplémentaire : Extraction du code R d''un document R Markdown'
+author: "Laurent Caron"
+date: "April 1, 2016"
+output: html_document
+---
+
+Pour extraire tout le code source R ayant servi à générer les résultats d'un document compilé avec R Markdown, utiliser la fonction `purl` du package **knitr**. Cette fonction sert à extraire tous les _chunks_ de code R présents dans un fichier .Rmd et à les rassembler dans un fichier .R dans le dossier où se trouve votre fichier .Rmd.
+
+Cet outil s'avère particulièrement utile lorsque l'on vous demande seulement de fournir le code source **.R** de votre travail.
+
+Vous pouvez appeler la fonction `purl` directement depuis l'invite de commande R :
+
+```{r eval = FALSE}
+  library(knitr)
+  purl("C:\\Chemin\\vers\\le\\fichier\\Exercice_2.Rmd")
+```
+
+en prenant bien soin de remplacer `C:\\Chemin\\vers\\le\\fichier` par le véritable chemin où se trouve le fichier **Exercice_Supp_extraction.Rmd**.
+
+**********************************
+
+**Astuce** : Plutôt que de saisir cette ligne manuellement à chaque fois que vous compilez votre code source, vous pouvez ajouter un _chunk_ R à la toute fin de votre fichier **.Rmd** contenant la ligne. Pour ce faire, vous devrez spécifier dans les options du _chunk_ l'option `include = FALSE`, qui permettra à R d'évaluer la ligne sans afficher quoi que ce soit dans votre travail.
+
+Cette solution rend le tout plus automatique et créera une nouvelle version .R à chaque compilation de la version .Rmd.
+
+Par exemple, supposons que tout votre travail est contenu dans le fichier
+<a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_Supp_extraction.Rmd" download>Exercice_Supp_extraction.Rmd</a>. Enregistrez-le sur votre poste de travail et compilez-le pour voir l'effet de la fonction `purl` lorsqu'appelée automatiquement.
+
+**Remarque** : Tout comme lors de l'exécution manuelle de la fonction `purl`, vous aurez à changer le chemin d'accès vers le fichier **.Rmd**.

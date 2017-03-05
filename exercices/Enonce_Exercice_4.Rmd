@@ -1,0 +1,22 @@
+---
+title: "Exercice 4 : formats R Markdown"
+output: html_document
+---
+
+Télécharger le code source du document
+<a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_4.Rmd" download>Exercice_4.Rmd</a>
+et l'enregistrer dans un dossier pertinent.
+
+Ouvrir le fichier dans votre éditeur de texte favori.
+
+Compiler le fichier tel quel. Un document HTML sera produit.
+
+Dans l'en-tête, remplacer `html_document` par `word_document` et enregistrer le fichier :
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_4_1.jpg)
+
+Compiler le résultat, et comparer le document HTML au document Word.
+
+************
+
+Pour ceux qui ont un moteur TeX installé sur leur poste de travail, remplacer `word_document` par `pdf_document` et enregistrer le fichier. Compiler le résultat, et comparer les documents HTML, Word et PDF.

@@ -1,0 +1,56 @@
+---
+title: "Exercice 5 : personnalisation du format HTML"
+output: html_document
+---
+
+## 
+
+Télécharger le code source du document
+<a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_5_HTML.Rmd" download>Exercice_5_HTML.Rmd</a>
+et l'enregistrer dans un dossier pertinent.
+
+Ouvrir le fichier dans votre éditeur de texte favori.
+
+Compiler le fichier et observer le résultat.
+
+**Fermer le document HTML, car R Markdown sera incapable d'effectuer des modifications à celui-ci s'il est toujours ouvert au moment de la prochaine compilation.**
+
+Dans l'en-tête du document, ajouter un `:` après l'option `html_document`. Le `:` indique au compilateur qu'une option de niveau inférieur suivra.
+
+Faire un retour à la ligne et une tabulation, puis ajouter l'option `toc: TRUE` sous `html_document:`.
+
+L'en-tête résultante est illustrée ci-bas. Attention! Le respect de l'indentation et des `:` est essentiel.
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_enonce_exercice_5_HTML_1.jpg)
+
+Compiler le document à nouveau, puis observer les changements (indice : table des matières).
+
+**Fermer le document HTML, car R Markdown sera incapable d'effectuer des modifications à celui-ci s'il est toujours ouvert au moment de la prochaine compilation.**
+
+Ajouter l'option `toc_float: TRUE` sous `toc: TRUE` : 
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_enonce_exercice_5_HTML_2.jpg)
+
+Compiler le document à nouveau, puis observer les changements.
+
+**À nouveau, après avoir consulté les modifications, fermer le document HTML, car R Markdown sera incapable d'effectuer des modifications à celui-ci s'il est toujours ouvert au moment de la prochaine compilation.**
+
+Faire défiler le document pour constater l'effet de la table des matières flottante.
+
+De la même façon que la ligne précédente, ajouter la ligne `number_sections: TRUE` à l'en-tête, compiler le résultat, et observer les changements.
+
+Fermer le document HTML.
+
+De la même façon que la ligne précédente, ajouter la ligne `theme: flatly` à l'en-tête, compiler le résultat, et observer les changements.
+
+Fermer le document HTML.
+
+De la même façon que la ligne précédente, ajouter la ligne `highlight: espresso` à l'en-tête, compiler le résultat, et observer les changements.
+
+Fermer le document HTML.
+
+Le résultat final du code source devrait être le suivant :
+
+![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_enonce_exercice_5_HTML_3.jpg)
+
+Pour un guide plus complet des fonctionnalités HTML, consulter la page à ce sujet sur le site de R Markdown : [Options du format HTML en R Markdown](http://rmarkdown.rstudio.com/html_document_format.html)

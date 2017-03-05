@@ -1,0 +1,34 @@
+---
+title: "Exercice 2 : compilation d'un fichier source"
+output: html_document
+---
+
+## 
+
+Télécharger le code source du document
+<a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_2.Rmd" download>Exercice_2.Rmd</a>
+en cliquant droit sur le lien précédent, et en enregistrant le fichier sous un répertoire pertinent où vous compilerez vos fichiers. Par défaut, le document sera compilé au même endroit que le code source, alors assurez-vous que le code source se trouve à un endroit pertinent et facile à retrouver.
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_2_1.jpg)
+
+Maintenant que votre code source **Exercice_2.Rmd** est enregistré, allez le retrouver et ouvrez-le dans votre éditeur de texte favori.
+
+Lancer la compilation en saisissant dans l'invite de commande R la ligne suivante :
+```{r echo = TRUE, eval = FALSE}
+render("C:\\chemin\\vers\\le\\dossier\\Exercice_2.Rmd", encoding = "utf-8")
+```
+en prenant soin de remplacer `C:\\chemin\\vers\\le\\dossier\\` par le véritable chemin du dossier où vous avez enregistré le fichier **Exercice_2.Rmd**.
+
+Un document a été généré à partir du code source compilé et est disponible à l'endroit où vous avez préalablement enregistré le code source **Exercice_2.Rmd**. Il aura le même nom que le code source, et se présentera sous le format HTML :
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_2_2.jpg)
+
+Ouvrir le fichier HTML produit et le comparer au code source.
+
+********
+
+Remarque : Dans RStudio, vous pouvez remplacer la commande `render()` par une pression du bouton **Knit HTML**, tel qu'illustré :
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_2_3.JPG)
+
+Un aperçu du document que vous avez créé devrait apparaître dans une nouvelle fenêtre ou dans l'onglet **Viewer**.

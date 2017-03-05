@@ -1,0 +1,24 @@
+---
+title: "Exercice 3 : options d'affichage du code R"
+output: html_document
+---
+
+## 
+
+Dans votre éditeur de texte favori, créer un nouveau document **.Rmd** avec la même en-tête que celle de l'Exercice 2.
+
+**Remarque** : copier le fichier de l'Exercice 2 sous un nouveau nom et supprimer le texte sous l'en-tête produirait le même résultat.
+
+À l'aide des options d'affichage du code R, reproduire ce passage :
+
+```{r, echo = TRUE, eval = TRUE}
+  m <- matrix(1:16, 4, 4)
+```
+
+```{r, echo = TRUE, eval = FALSE}
+  m <- 5
+```
+
+```{r, echo = FALSE, eval = TRUE}
+  m[, -4]
+```

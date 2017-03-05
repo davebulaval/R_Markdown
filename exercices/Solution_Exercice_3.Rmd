@@ -1,0 +1,51 @@
+---
+title: ''
+output: html_document
+---
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r echo = TRUE, eval = TRUE}
+  m <- matrix(1:16, 4, 4)
+```
+
+```{r echo = TRUE, eval = FALSE}
+  m <- 5
+```
+
+```{r echo = FALSE, eval = TRUE}
+  m[ ,-4]
+```
+
+
+
+
+
+
+

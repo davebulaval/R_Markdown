@@ -1,0 +1,72 @@
+---
+title: "Exercice 5 : personnalisation du format PDF"
+output: html_document
+---
+
+## 
+
+Télécharger le code source du document
+<a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_5_PDF.Rmd" download>Exercice_5_PDF.Rmd</a>
+et l'enregistrer dans un dossier pertinent.
+
+Ouvrir le fichier dans votre éditeur de texte favori.
+
+Compiler le fichier et ouvrir le document compilé.
+
+**Fermer le document PDF, car R Markdown sera incapable d'effectuer des modifications à celui-ci s'il est toujours ouvert au moment de la prochaine compilation.**
+
+Dans l'en-tête du document, ajouter un `:` après l'option `pdf_document`. Le `:` indique au compilateur qu'une option de niveau inférieur suivra.
+
+Faire un retour à la ligne et une tabulation, puis ajouter l'option `toc: TRUE` sous `pdf_document:`.
+
+L'en-tête résultante est illustrée ci-bas. Attention! Le respect de l'indentation et des `:` est essentiel.
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_PDF_1.jpg)
+
+Compiler le document à nouveau, puis observer les changements (indice : table des matières).
+
+**Fermer le document PDF, car R Markdown sera incapable d'effectuer des modifications à celui-ci s'il est toujours ouvert au moment de la prochaine compilation.**
+
+Ajouter l'option `toc_depth: 1` sous `toc: TRUE` : 
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_PDF_2.jpg)
+
+Compiler le document à nouveau, puis observer les changements.
+
+**À nouveau, après avoir consulté les modifications, fermer le document PDF, car R Markdown sera incapable d'effectuer des modifications à celui-ci s'il est toujours ouvert au moment de la prochaine compilation.**
+
+De la même façon que la ligne précédente, ajouter la ligne `number_sections: TRUE` à l'en-tête, compiler le résultat, et observer les changements.
+
+Fermer le document PDF.
+
+De la même façon que la ligne précédente, ajouter la ligne `highlight: espresso` à l'en-tête, compiler le résultat, et observer les changements.
+
+Fermer le document PDF.
+
+Sur une nouvelle ligne, ajouter l'option `fontsize: 5pt`. Cette ligne ne devrait pas avoir d'indentation :
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_PDF_3.jpg)
+
+Compiler le résultat, et observer les changements.
+
+Fermer le document PDF.
+
+De la même façon que la ligne précédente, ajouter la ligne `geometry: margin=2in` à l'en-tête, compiler le résultat, et observer les changements.
+
+Fermer le document PDF.
+
+De la même façon que la ligne précédente, ajouter la ligne `lang: fr` à l'en-tête, compiler le résultat, et observer les changements. **Remarque** : Sur certains postes de travail, l'option devra plutôt se nommer `lang: french` pour produire le résultat escompté.
+
+Fermer le document PDF.
+
+Vous êtes tellement satisfaits de votre travail que vous désirez le publier sous forme de livre? De la même façon que la ligne précédente, ajouter la ligne `documentclass: book` à l'en-tête, compiler le résultat, et observer les changements.
+
+Fermer le document PDF.
+
+Vous voulez que les liens de type URL soient plus évidents? De la même façon que la ligne précédente, ajouter la ligne `urlcolor: blue` à l'en-tête, compiler le résultat, et observer les changements.
+
+Le résultat final du code source devrait être le suivant :
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_PDF_4.jpg)
+
+Pour un guide plus complet des fonctionnalités PDF, consulter la page à ce sujet sur le site de R Markdown : [Options du format PDF en R Markdown](http://rmarkdown.rstudio.com/pdf_document_format.html)

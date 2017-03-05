@@ -1,0 +1,26 @@
+---
+title: "Exercice Supplémentaire : Création d'un nouveau document dans RStudio"
+output: html_document
+---
+
+##
+
+Dans le coin supérieur gauche de votre fenêtre de l'application RStudio, cliquer sur l'icône de nouveau fichier et sélectionner le format **R Markdown**.
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_supp_creation_1.JPG)
+
+Une fenêtre de dialogue s'ouvre. Donner un **titre** à votre document et inscrire votre **nom** aux lignes prévues à cet effet. Choisir le format **HTML**, puis cliquer sur le bouton **OK**.
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_supp_creation_2.JPG)
+
+Avant de poursuivre, enregistrez le nouveau fichier (code source) dans le dossier où vous désirez retrouver le document final (fichier compilé). Par défaut, le fichier compilé est enregistré au même endroit que le code source.
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_supp_creation_3.JPG)
+
+Maintenant que votre code source est enregistré, lancer la compilation à l'aide de la commande **Knit HTML**.
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_2_3.JPG)
+
+La version compilée est également disponible à l'endroit où vous avez préalablement enregistré le code source.
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_supp_creation_5.JPG)

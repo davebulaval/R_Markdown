@@ -1,0 +1,38 @@
+---
+title: ''
+output:
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+    number_sections: TRUE
+    theme: flatly
+    highlight: espresso
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Markdown
+
+## Description
+
+Ceci est un document R Markdown. Markdown est un langage de balisage léger permettant de créer des documents dans les formats HTML, PDF et MS Word entre autres. Pour plus de détails, consulter <http://rmarkdown.rstudio.com>.
+
+## _Chunks_ de code R
+
+Vous pouvez inclure des _chunks_ de code R :
+
+```{r cars}
+summary(cars)
+```
+
+## Graphiques
+
+Vous pouvez également inclure des graphiques :
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+notez que le paramètre `echo = FALSE` a été ajouté au _chunk_ pour empêcher l'affichage du code R qui a généré le graphique.

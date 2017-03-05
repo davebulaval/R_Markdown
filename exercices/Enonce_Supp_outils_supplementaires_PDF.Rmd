@@ -1,0 +1,11 @@
+---
+title: "Exercice Supplémentaire : outils supplémentaires PDF"
+output:
+  html_document
+---
+
+Télécharger le code source du document
+<a href="https://rawgit.com/LCULaval/OTC/gh-pages/Gabarit_PDF.Rmd" download>Gabarit_PDF.Rmd</a>
+et l'enregistrer dans un dossier pertinent.
+
+Compiler le document, puis comparer le code source au résultat final.

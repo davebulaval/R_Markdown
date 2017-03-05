@@ -1,0 +1,52 @@
+---
+title: "Exercice 5"
+author: "Auteur"
+date: "March 30, 2016"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 1
+    number_sections: TRUE
+    highlight: espresso
+fontsize: 5pt
+geometry: margin=2in
+lang: fr
+documentclass: book
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Markdown
+
+## Description
+
+Ceci est un document R Markdown. Markdown est un langage de balisage léger permettant de créer des documents dans les formats HTML, PDF et MS Word entre autres. Pour plus de détails, consulter <http://rmarkdown.rstudio.com>.
+
+## _Chunks_ de code R
+
+Vous pouvez inclure des _chunks_ de code R :
+
+```{r cars}
+summary(cars)
+```
+
+## Graphiques
+
+Vous pouvez également inclure des graphiques :
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+notez que le paramètre `echo = FALSE` a été ajouté au _chunk_ pour empêcher l'affichage du code R qui a généré le graphique.
+
+# Titre
+
+Équation centrée $$\frac{2}{5}$$ sur une ligne séparée.
+
+## Sous-titre
+
+Équation $\frac{2}{5}$ au fil du texte.
