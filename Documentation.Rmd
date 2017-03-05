@@ -1,0 +1,70 @@
+---
+title: "Documentation"
+output: html_document
+---
+
+De la documentation est disponible au fil de la formation, que ce soit à l'intérieur de la présentation ou à l'intérieur des exercices. Vous trouverez dans cette page un lien vers chacune de ces sources.
+
+******************************
+
+## Présentation
+
+### Markdown
+
+- [_Cheatsheet_ de la syntaxe](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+- [Site du créateur](https://daringfireball.net/projects/markdown/)
+
+### R Markdown
+
+- [Page d'accueil du projet R Markdown](http://rmarkdown.rstudio.com/index.html)
+
+- [_Cheatsheet_ R Markdown](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+
+- [Guide de référence R Markdown](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+
+- [Guide knitr](http://kbroman.org/knitr_knutshell/)
+
+- [Options PDF de R Markdown](http://rmarkdown.rstudio.com/pdf_document_format.html)
+
+- [Options knitr](http://yihui.name/knitr/options/)
+
+### Git
+
+- [Git et RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
+
+- [try.github.io](http://try.github.io)
+
+- [Principes des logiciels de gestion de versions](http://betterexplained.com/articles/a-visual-guide-to-version-control/)
+
+- [Git pour les nuls](http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/)
+
+- [Comment utiliser les _patch_](https://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git/)
+
+- [_patch Workflow_](http://rypress.com/tutorials/git/patch-workflows)
+
+- [Guides GitHub](https://guides.github.com/)
+
+- [Pro Git Book](https://git-scm.com/book/fr/v2)
+
+******************************
+
+## Exercices
+
+### Exercice 5 PDF
+
+- [Options du format PDF en R Markdown](http://rmarkdown.rstudio.com/pdf_document_format.html)
+
+### Exercice 5 HTML
+
+- [Options du format HTML en R Markdown](http://rmarkdown.rstudio.com/html_document_format.html)
+
+### Exercice Supplémentaire : Outils supplémentaires PDF et HTML
+
+- [Liste des principaux symboles mathématiques en LaTeX](http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html)
+
+- [Première partie de la formation LaTeX présentée par Vincent Goulet pour la Bibliothèque de l’Université Laval](http://ctan.math.ca/tex-archive/info/formation-latex-ul/formation_latex_UL-partie_1.pdf)
+
+- [Deuxième partie de la formation LaTeX présentée par Vincent Goulet pour la Bibliothèque de l’Université Laval](http://ctan.mirror.rafal.ca/info/formation-latex-ul/formation_latex_UL-partie_2.pdf)
+
+- [La liste complète des symboles LaTeX](http://mirror.its.dal.ca/ctan/info/symbols/comprehensive/symbols-letter.pdf)

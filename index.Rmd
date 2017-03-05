@@ -1,0 +1,463 @@
+---
+title: "Outils de travail collaboratif"
+author: "Laurent Caron"
+date: "7 avril 2016"
+output:
+  ioslides_presentation:
+    transition: faster
+    widescreen: yes
+subtitle: "Atelier interactif"
+---
+
+
+
+
+# Mise en contexte
+
+## Mise en contexte
+
+« Finalement, comme plusieurs d'entre-vous n'ont pas beaucoup de temps
+pour (...) reprendre tout ce que vous venez de produire en R pour en faire
+un rapport avec de multiple copier/coller/effacer/modifier/jeter/recommencer,
+il serait peut-être intéressant pour vous de commencer à utiliser RMarkdown.»
+
+« Un autre outil très intéressant lorsque vous travaillerez sur vos projets en équipe serait l'adoption du programme Git (Lab ou Hub) qui consiste en quelque sorte en un Dropbox versionné (...).»
+
+
+$\quad$ - Samuel Cabral Cruz
+
+$\quad$ Analyste en actuariat chez DGAG, promotion 2015
+
+## Plan de match
+
+### Markdown
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_Markdown_logo.png)
+
+<br>
+
+### R Markdown
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdownReference.png)
+
+<br>
+
+### Git
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_Git_logo.png)
+
+<br>
+
+
+
+
+
+# Markdown
+
+## Markdown
+
+Créé par John Gruber en 2004
+
+Dernière mise à jour en 2004
+
+## Markdown
+
+Langage de balisage léger : structure, équations, tableaux, titres, images, etc.
+
+Utilisateurs : 
+
+* Stack Overflow
+* Stack Exchange
+* Blogs
+      
+## Markdown
+
+Langage de balisage léger : structure, équations, tableaux, titres, images, etc.
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_source_Markdown.jpg)
+    
+## Exemples d'utilisation de Markdown
+
+### Stack Overflow
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_overflow.jpg)
+
+## Exemples d'utilisation de Markdown
+
+### Stack Overflow
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_overflow_source.jpg)
+
+## Exemples d'utilisation de Markdown
+
+### Stack Exchange
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_exchange.jpg)
+
+## Exemples d'utilisation de Markdown
+
+### Stack Exchange
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_stack_exchange_source.jpg)
+
+## Markdown
+
+Langage de balisage léger : 
+
+- On se concentre sur la structure
+- Outils simples pour
+    - Code
+    - Équations
+    - Liens
+    - Images
+    - Listes
+    
+## Documentation Markdown
+
+[_Cheatsheet_ de la syntaxe](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+[Site du créateur](https://daringfireball.net/projects/markdown/)
+
+[Tutoriel interactif de 10 minutes](http://commonmark.org/help/tutorial/)
+
+
+
+
+
+
+        
+# R Markdown
+
+## R Markdown
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG)
+
+<br>
+
+Résultat quand on change le code (ordre, structure), les données, les graphiques, les tableaux?
+
+## R Markdown
+
+Programmation lettrée
+
+- Donald Knuth (TeX, The Art of Computer Programming)
+
+- Alternance :
+
+    - Mots
+    - Code
+    - Mots
+    - Code
+    - etc.
+
+## Étapes de compilation
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_3_panneaux_Rmarkdown_flowchart.jpg)
+
+## Avantages
+
+- Courte période d'apprentissage
+
+- Recherche reproductible
+
+- Automatisation
+
+- Conversion simple en plusieurs formats
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg)
+
+## Exercice 1 : Installation de R Markdown {.flexbox .vcenter}
+
+<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
+
+## Exercice 2 : Compilation d'un fichier source {.flexbox .vcenter}
+
+<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
+
+## Balises du code R
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_balises.jpg)
+
+RStudio :
+
+- Raccourci clavier: Ctrl + Alt + I
+
+- Bouton Vert "chunk"
+
+## Options d'affichage du code R
+
+**echo** : affiche le code source si **TRUE** (par défaut)
+
+**eval** : exécute le code et affiche la sortie si **TRUE** (par défaut)
+
+## Options d'affichage du code R
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_options_affichage.jpg)
+
+## R Markdown
+
+Extrait du travail pratique
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II_rapport.jpg)
+
+## R Markdown
+
+Solution : simplement en affichant le data.frame
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_3_panneaux_solution_TP.jpg)
+$\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdownFlow.png)
+
+## Exercice 3 : Options d'affichage du code R {.flexbox .vcenter}
+
+<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
+
+## Solution Exercice 3
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images\img_solution_exercice_3.jpg)
+
+## Formats R Markdown
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg)
+
+- PDF (recquiert LaTeX)
+- HTML
+- Diapositives (HTML ou PDF)
+- Word
+
+## Exercice 4 : Formats R Markdown {.flexbox .vcenter}
+
+<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
+
+## Personnalisation du format
+
+- Tout passe par l'en-tête
+- La syntaxe est importante → respecter indentations et "`:`"
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_HTML_3.jpg)
+
+## Exercice 5 : Personnalisation du format
+
+### Version PDF (pour ceux qui ont installé TeX)
+
+[LCULaval.github.io](http://lculaval.github.io)
+
+### Version HTML (pour les autres)
+
+[LCULaval.github.io](http://lculaval.github.io)
+
+<br>
+<br>
+<br>
+<br>
+
+Pour obtenir Tex
+
+[Tutoriel d'installation de TeXLive](https://www.youtube.com/watch?v=z_dq3dns-WU)
+
+## Outils supplémentaires
+
+Équations
+
+- `$\sqrt{4x^2} = 2x$`
+- $\sqrt{4x^2} = 2x$
+
+Sorties R au fil du texte
+
+- `Je vois` `` r 2 + 3` ` ` pommes`
+- Je vois `r 2 + 3` pommes
+
+## Exercice supplémentaire : Outils Supplémentaires
+
+### Version PDF (pour ceux qui ont installé TeX)
+
+[LCULaval.github.io](http://lculaval.github.io)
+
+### Version HTML (pour les autres)
+
+[LCULaval.github.io](http://lculaval.github.io)
+
+<br>
+<br>
+
+Pour obtenir Tex
+
+[Tutoriel d'installation de TeXLive](https://www.youtube.com/watch?v=z_dq3dns-WU)
+
+## Outils supplémentaires
+
+Comment récupérer le code R contenu dans un document R Markdown?
+
+- Fonction `purl()` du package **knitr**
+
+- Tout reste contenu dans le document .Rmd et peut être généré à partir de celui-ci
+
+    - `render("Fichier.Rmd")` $\quad$ → $\quad$ PDF, Word, HTML
+    
+    - `purl("Fichier.Rmd")` $\qquad$ → $\quad$ .R
+
+## Exercice supplémentaire : Extraction du code R contenu dans un document R Markdown {.flexbox .vcenter}
+
+<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
+
+## Documentation R Markdown
+
+[Page d'accueil du projet R Markdown](http://rmarkdown.rstudio.com/index.html)
+
+[_Cheatsheet_ R Markdown](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+
+[Guide de référence R Markdown](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+
+[Options PDF de R Markdown](http://rmarkdown.rstudio.com/pdf_document_format.html)
+
+[Guide knitr](http://kbroman.org/knitr_knutshell/)
+
+[Options knitr](http://yihui.name/knitr/options/)
+
+
+
+
+
+# Git
+
+## Avez-vous déjà...
+
+- Modifié un fichier, réalisé que c'était une erreur, et tenté de revenir en arrière? 3 minutes plus tard? 3 jours plus tard?
+
+- Perdu un fichier ou détenu une sauvegarde trop vieille?
+
+- Gardé plusieurs versions d'un même fichier à la fois?
+
+    - (Fichier_le_bon_V2 FINAL)
+
+- Voulu vérifier la différence entre deux versions ou plus de votre fichier?
+
+- Voulu revoir l'historique de votre fichier?
+
+- Voulu travailler en équipe sur un projet impliquant du code?
+
+- Voulu tester un ajout sans interférer avec la version actuelle d'un fichier?
+
+## ...moi oui!
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG)
+
+## Git
+
+Créé en 2005 par Linus Torvalds
+
+Logiciel
+
+- de gestion de versions
+
+- décentralisé
+
+- libre (_open source_)
+
+## Logiciel de gestion de versions ...
+
+Dépôt :
+
+- Sauvegarde des versions
+
+- Restauration et historique des versions
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_basic_checkin.png)
+
+- Principe : Google Docs, Google Sheets
+
+## Logiciel de gestion de versions ...
+
+- Différences entre les versions
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_basic_diffs.png)
+
+## Logiciel de gestion de versions ...
+
+- Tester des modifications en parallèle
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_first_branch.png)
+
+## Logiciel de gestion de versions ...
+
+- Appliquer les modifications, et les associer à un collaborateur
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_merging.png)
+
+## ... décentralisé ...
+
+- Chaque collaborateur détient une copie du serveur
+
+- Permet de travailler avant d'obtenir les permissions
+
+- Permet de travailler hors ligne
+
+## ... libre
+
+- Gratuit
+
+- En croissance
+
+- Collaboration
+
+## Utilisateurs du système Git
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_projets_utilisant_Git.jpg)
+
+## Git
+
+- Ligne de commande
+
+![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_ligne_commande_git.jpg)
+
+## GitHub
+
+- GitHub.com
+    - Hébergement
+    - Interface Web pour gérer le dépôt
+
+- Version gratuite :
+    - Dépôts publics seulement
+
+- Version commerciale :
+    - Google
+    - Facebook
+    - Microsoft
+    - Netflix
+
+## GitLab
+
+- GitLab.com
+    - Hébergement
+    - Interface Web pour gérer le dépôt
+    
+- Version gratuite :
+    - Dépôts publics **et privés**
+
+- Version commerciale :
+    - IBM
+    - Expedia
+    - NASA
+    - Bell
+
+## Git + RStudio
+
+Interaction avec un dépôt Git intégrée à RStudio
+
+## Démonstration
+
+Démonstration d'une séance de travail
+
+## Documentation Git
+
+[**Tutoriel sur le système Git**](http://try.github.io)
+
+[Intégrer Git à RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
+
+[Les logiciels de gestion de versions expliqués](http://betterexplained.com/articles/a-visual-guide-to-version-control/)  
+* Les images des diapositives **Logiciel de gestion de versions...** proviennent de cette page
+
+[Git pour les nuls](http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/)
+
+[Guides GitHub](https://guides.github.com/)
+
+[Pro Git Book](https://git-scm.com/book/fr/v2)
+
+[Comment utiliser les _patch_](https://ariejan.net/2009/10/26/how-to-create-and-apply-a-patch-with-git/)
+
+[_patch Workflow_](http://rypress.com/tutorials/git/patch-workflows)

@@ -1,0 +1,126 @@
+---
+title: "Gabarit PDF"
+author: "Laurent Caron"
+date: "March 31, 2016"
+output:
+  pdf_document:
+    fig_caption: yes
+    highlight: pygments
+    number_sections: yes
+    toc: yes
+    toc_depth: 2
+fontsize: 12pt
+geometry: margin=1in
+lang: fr
+documentclass: book
+urlcolor: blue
+---
+
+# R Markdown
+
+## Description
+
+Ceci est un document R Markdown. Markdown est un langage de balisage léger permettant de créer des documents dans les formats HTML, PDF et MS Word entre autres. Pour plus de détails, consulter <http://rmarkdown.rstudio.com>.
+
+## _Chunks_ de code R
+
+Vous pouvez inclure des _chunks_ de code R :
+
+```{r cars}
+summary(cars)
+```
+
+## Tableaux
+
+Vous pouvez aficher un data.frame directement :
+
+```{r, echo = FALSE}
+faithful[1:10,]
+```
+
+Notez que le paramètre `echo = FALSE` a été ajouté au _chunk_ pour empêcher l'affichage du code R qui a généré le data.frame.
+
+Ou faire appel au package **knitr**, qui présente le tableau de façon élégante, et avec un titre numéroté automatiquement selon le numéro de section et l'ordre d'apparition du graphique :
+
+```{r, echo = FALSE}
+knitr::kable(faithful[1:10,], caption = "Tableau de eruptions et waiting")
+```
+
+
+## Équations
+
+### Types d'équations
+
+Équation au fil du texte : $2i / 10i = \frac{1}{5}$
+
+Équation sur une nouvelle ligne : $$2i / 10i = \frac{1}{5}$$
+
+Équation au fil du texte : $S = \sum_{i=1}^n X_i$
+
+Équation sur une nouvelle ligne : $$S = \sum_{i=1}^n X_i$$
+
+### Indices
+
+$X_i$
+
+$X_i,j$
+
+$X_{i}$
+
+$X_{i,j}$
+
+### Exposants
+
+$X^2$
+
+${X^2}^3$
+
+### Caractères spéciaux
+
+$$\log{(x)}$$
+$$\sqrt{x}$$
+$$\overline{x}$$
+$$\hat{x}$$
+$$\binom{x}{n}$$
+$$\partial{x}$$
+$$\alpha$$
+$$\beta$$
+$$\gamma$$
+$$\delta$$
+$$x \in S$$
+$$A \cup B$$
+$$\mu \pm 1.96 \sigma$$
+
+La syntaxe des équations en R Markdown suit celle empruntée par le langage LaTeX. Ainsi, pour plus de détails, vous pouvez consulter les nombreuses rubriques d'aide sur le sujet  :
+
+- [Liste des principaux symboles mathématiques en LaTeX](http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html)
+
+- [Première partie de la formation LaTeX présentée par Vincent Goulet pour la Bibliothèque de l’Université Laval](http://ctan.math.ca/tex-archive/info/formation-latex-ul/formation_latex_UL-partie_1.pdf)
+
+- [Deuxième partie de la formation LaTeX présentée par Vincent Goulet pour la Bibliothèque de l’Université Laval](http://ctan.mirror.rafal.ca/info/formation-latex-ul/formation_latex_UL-partie_2.pdf)
+
+- [La liste complète des symboles LaTeX](http://mirror.its.dal.ca/ctan/info/symbols/comprehensive/symbols-letter.pdf)
+
+## Interaction avec R
+
+Code au fil du texte : `r 2 + 3`
+
+Code dans une boîte : 
+```{r}
+2 + 3
+```
+
+
+## Graphiques
+
+Vous pouvez également inclure des graphiques :
+
+```{r, echo=FALSE}
+plot(pressure)
+```
+
+Avec un titre numéroté automatiquement selon le numéro de section et l'ordre d'apparition du graphique (recquiert l'option `fig_caption: yes` dans l'en-tête) :
+
+```{r, echo=FALSE, fig.cap="Graphique de la pression"}
+plot(pressure)
+```

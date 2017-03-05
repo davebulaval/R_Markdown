@@ -1,0 +1,99 @@
+---
+title: "Outils supplémentaires"
+output:
+  html_document
+---
+
+****************************************
+
+## Équations
+
+### Types d'équations
+
+Équation au fil du texte : $2i / 10i = \frac{1}{5}$
+
+Équation sur une nouvelle ligne : $$2i / 10i = \frac{1}{5}$$
+
+Équation au fil du texte : $S = \sum_{i=1}^n X_i$
+
+Équation sur une nouvelle ligne : $$S = \sum_{i=1}^n X_i$$
+
+### Indices
+
+$X_i$
+
+$X_i,j$
+
+$X_{i}$
+
+$X_{i,j}$
+
+### Exposants
+
+$X^2$
+
+${X^2}^3$
+
+### Caractères spéciaux
+
+$$\log{(x)}$$
+$$\sqrt{x}$$
+$$\overline{x}$$
+$$\hat{x}$$
+$$\binom{x}{n}$$
+$$\partial{x}$$
+$$\alpha$$
+$$\beta$$
+$$\gamma$$
+$$\delta$$
+$$x \in S$$
+$$A \cup B$$
+$$\mu \pm 1.96 \sigma$$
+
+La syntaxe des équations en R Markdown suit celle empruntée par le langage LaTeX. Ainsi, pour plus de détails, vous pouvez consulter les nombreuses rubriques d'aide sur le sujet  :
+
+- [Liste des principaux symboles mathématiques en LaTeX](http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html)
+
+- [Première partie de la formation LaTeX présentée par Vincent Goulet pour la Bibliothèque de l’Université Laval](http://ctan.math.ca/tex-archive/info/formation-latex-ul/formation_latex_UL-partie_1.pdf)
+
+- [Deuxième partie de la formation LaTeX présentée par Vincent Goulet pour la Bibliothèque de l’Université Laval](http://ctan.mirror.rafal.ca/info/formation-latex-ul/formation_latex_UL-partie_2.pdf)
+
+- [La liste complète des symboles LaTeX](http://mirror.its.dal.ca/ctan/info/symbols/comprehensive/symbols-letter.pdf)
+
+****************************************
+
+## Interaction avec R
+
+Code au fil du texte : `r 2 + 3`
+
+Code dans une boîte : 
+```{r}
+2 + 3
+```
+
+****************************************
+
+## Onglets {.tabset}
+
+### Onglet 1
+
+Contenu de l'onglet 1
+
+****************************************
+
+### Onglet 2
+
+Contenu de l'onglet 2
+
+****************************************
+
+## Tableaux
+
+```{r echo = FALSE}
+(d <- data.frame(X = sample(250:500, 5), Y = sample(50:100, 5)))
+```
+
+
+```{r results = 'asis', echo = FALSE}
+knitr::kable(d, caption = "Tableau 1")
+```
