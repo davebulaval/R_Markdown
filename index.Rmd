@@ -1,7 +1,7 @@
 ---
 title: "Outils de travail collaboratif"
-author: "Laurent Caron"
-date: "7 avril 2016"
+author: "David Beauchemin & Samuel Lévesque"
+date: "17 mars 2017"
 output:
   ioslides_presentation:
     transition: faster
@@ -41,9 +41,7 @@ $\quad$ Analyste en actuariat chez DGAG, promotion 2015
 
 <br>
 
-### Git
-
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_Git_logo.png)
+### Outils de travail collaboratifs
 
 <br>
 
@@ -164,11 +162,11 @@ Programmation lettrée
 
 ## Exercice 1 : Installation de R Markdown {.flexbox .vcenter}
 
-<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
+<h2> [davebulaval.github.io](https://davebulaval.github.io) </h2>
 
 ## Exercice 2 : Compilation d'un fichier source {.flexbox .vcenter}
 
-<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
+<h2> [davebulaval.github.io](https://davebulaval.github.io) </h2>
 
 ## Balises du code R
 
@@ -205,7 +203,7 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RM
 
 ## Exercice 3 : Options d'affichage du code R {.flexbox .vcenter}
 
-<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
+<h2> [davebulaval.github.io](https://davebulaval.github.io) </h2>
 
 ## Solution Exercice 3
 
@@ -222,7 +220,7 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RM
 
 ## Exercice 4 : Formats R Markdown {.flexbox .vcenter}
 
-<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
+<h2> [davebulaval.github.io](https://davebulaval.github.io) </h2>
 
 ## Personnalisation du format
 
