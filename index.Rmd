@@ -1,5 +1,5 @@
 ---
-title: "Outils de travail collaboratif"
+title: "RMarkdown & outils de travail collaboratif"
 author: "David Beauchemin & Samuel Lévesque"
 date: "17 mars 2017"
 output:

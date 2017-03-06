@@ -1,4 +1,4 @@
-# Outils de travail collaboratif
+# RMarkdown & outils de travail collaboratif
 
 Présentation faite sous forme d'atelier optionnel offerte par l'école d'actuariat de l'Université Laval.
 
