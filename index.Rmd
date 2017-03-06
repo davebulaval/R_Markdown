@@ -41,7 +41,12 @@ $\quad$ Analyste en actuariat chez DGAG, promotion 2015
 
 <br>
 
-### Outils de travail collaboratifs
+### Outils de travail collaboratif :
+1. GitHub
+2. Google Drive
+3. Dropbox
+4. Autres
+
 
 <br>
 
@@ -242,11 +247,14 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RM
 <br>
 <br>
 <br>
-<br>
 
-Pour obtenir Tex
+Pour obtenir Tex 
 
 [Tutoriel d'installation de TeXLive](https://www.youtube.com/watch?v=z_dq3dns-WU)
+
+**Rappel :** Présentation de Vincent Goulet le vendredi 24 mars de 9h30 à 12h20
+
+
 
 ## Outils supplémentaires
 
@@ -260,22 +268,6 @@ Sorties R au fil du texte
 - `Je vois` `` r 2 + 3` ` ` pommes`
 - Je vois `r 2 + 3` pommes
 
-## Exercice supplémentaire : Outils Supplémentaires
-
-### Version PDF (pour ceux qui ont installé TeX)
-
-[LCULaval.github.io](http://lculaval.github.io)
-
-### Version HTML (pour les autres)
-
-[LCULaval.github.io](http://lculaval.github.io)
-
-<br>
-<br>
-
-Pour obtenir Tex
-
-[Tutoriel d'installation de TeXLive](https://www.youtube.com/watch?v=z_dq3dns-WU)
 
 ## Outils supplémentaires
 
@@ -291,7 +283,7 @@ Comment récupérer le code R contenu dans un document R Markdown?
 
 ## Exercice supplémentaire : Extraction du code R contenu dans un document R Markdown {.flexbox .vcenter}
 
-<h2> [LCULaval.github.io](http://lculaval.github.io) </h2>
+<h2> [davebulaval.github.io](https://davebulaval.github.io) </h2>
 
 ## Documentation R Markdown
 
@@ -311,7 +303,7 @@ Comment récupérer le code R contenu dans un document R Markdown?
 
 
 
-# Git
+# OTC
 
 ## Avez-vous déjà...
 
@@ -335,9 +327,46 @@ Comment récupérer le code R contenu dans un document R Markdown?
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_TP_intro_II.JPG)
 
-## Git
+## OTC
 
-Créé en 2005 par Linus Torvalds
+Plusieurs options existent déjà avec un degré d'apprentissage variable
+
+- Google Drive
+- DropBox
+- GitHub
+- Mercurial
+- Autres
+
+
+## Google Drive
+
+Logiciel
+
+- décentralisé
+
+- 15 go gratuit
+
+- supporte la saisie multiple
+
+- historique des versions (30 jours)
+
+- *push* des fichiers automatique avec l'application
+
+
+## Dropbox 
+
+Logiciel
+
+- décentralisé
+
+- 1 go gratuit + parainage
+
+- historique des versions (30 jours)
+
+- *push* des fichiers automatique avec l'application
+
+
+## GitHub
 
 Logiciel
 
@@ -346,6 +375,12 @@ Logiciel
 - décentralisé
 
 - libre (_open source_)
+
+- intégrable directement sur RStudio
+
+- espace illimité public
+
+- interface web pour le Github possible
 
 ## Logiciel de gestion de versions ...
 
@@ -397,41 +432,7 @@ Dépôt :
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_projets_utilisant_Git.jpg)
 
-## Git
 
-- Ligne de commande
-
-![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_ligne_commande_git.jpg)
-
-## GitHub
-
-- GitHub.com
-    - Hébergement
-    - Interface Web pour gérer le dépôt
-
-- Version gratuite :
-    - Dépôts publics seulement
-
-- Version commerciale :
-    - Google
-    - Facebook
-    - Microsoft
-    - Netflix
-
-## GitLab
-
-- GitLab.com
-    - Hébergement
-    - Interface Web pour gérer le dépôt
-    
-- Version gratuite :
-    - Dépôts publics **et privés**
-
-- Version commerciale :
-    - IBM
-    - Expedia
-    - NASA
-    - Bell
 
 ## Git + RStudio
 
