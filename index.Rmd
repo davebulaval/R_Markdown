@@ -33,13 +33,9 @@ $\quad$ Analyste en actuariat chez DGAG, promotion 2015
 ### Markdown
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_Markdown_logo.png)
 
-<br>
-
 ### R Markdown
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdownReference.png)
-
-<br>
 
 ### Outils de travail collaboratif :
 1. GitHub
@@ -238,11 +234,11 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RM
 
 ### Version PDF (pour ceux qui ont installé TeX)
 
-[LCULaval.github.io](http://lculaval.github.io)
+[davebulaval.github.io](https://davebulaval.github.io)
 
 ### Version HTML (pour les autres)
 
-[LCULaval.github.io](http://lculaval.github.io)
+[davebulaval.github.io](https://davebulaval.github.io)
 
 <br>
 <br>
