@@ -1,19 +1,22 @@
 ---
 title: "Gabarit PDF"
-author: "Laurent Caron"
-date: "March 31, 2016"
+author: "Davud Beauchemin et Samuel Lévesque"
+date: "17 mars 2017"
 output:
   pdf_document:
     fig_caption: yes
-    highlight: pygments
+    highlight: tango
     number_sections: yes
     toc: yes
     toc_depth: 2
 fontsize: 12pt
 geometry: margin=1in
 lang: fr
-documentclass: book
+documentclass: memoir
 urlcolor: blue
+header-includes:
+  - \usepackage{amsmath}
+  - \usepackage{tcolorbox}
 ---
 
 # R Markdown
