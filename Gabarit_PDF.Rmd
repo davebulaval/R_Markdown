@@ -1,6 +1,6 @@
 ---
 title: "Gabarit PDF"
-author: "Davud Beauchemin et Samuel Lévesque"
+author: "David Beauchemin et Samuel Lévesque"
 date: "17 mars 2017"
 output:
   pdf_document:
@@ -96,8 +96,7 @@ $$\mu \pm 1.96 \sigma$$
 
 ### Notions avancées
 
-Il est possible d'aligner certains caractères (= par exemple) dans l'environnement *aligned*. Pour changer de ligne, on utilise la commande **\\**
-
+Il est possible d'aligner certains caractères (= par exemple) dans l'environnement *aligned*. Pour changer de ligne, on utilise la commande $\\$
 
 $$\begin{aligned}
 \hat{m}' &= X_{Z,W} \\
