@@ -94,6 +94,22 @@ $$x \in S$$
 $$A \cup B$$
 $$\mu \pm 1.96 \sigma$$
 
+### Notions avancées
+
+Il est possible d'aligner certains caractères (= par exemple) dans l'environnement *aligned*. Pour changer de ligne, on utilise la commande **\\**
+
+
+$$\begin{aligned}
+\hat{m}' &= X_{Z,W} \\
+&= \sum_{i=1}^I \left(\frac{Z_i}{Z_{\bullet}}\right) X_{i,W}
+\end{aligned}$$
+
+Équation importante: $\boxed{\text{Équation très importante}}$
+
+Oversets/ Undersets: $E[\mu(\theta)] \overset{def}{=} \int_{-\infty}^{\infty} \mu(\theta) f_{\Theta}(\theta)$
+
+### Notions supplémentaires
+
 La syntaxe des équations en R Markdown suit celle empruntée par le langage LaTeX. Ainsi, pour plus de détails, vous pouvez consulter les nombreuses rubriques d'aide sur le sujet  :
 
 - [Liste des principaux symboles mathématiques en LaTeX](http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html)
