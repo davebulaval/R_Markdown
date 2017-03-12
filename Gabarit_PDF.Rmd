@@ -1,19 +1,22 @@
 ---
 title: "Gabarit PDF"
-author: "Laurent Caron"
-date: "March 31, 2016"
+author: "David Beauchemin et Samuel Lévesque"
+date: "17 mars 2017"
 output:
   pdf_document:
     fig_caption: yes
-    highlight: pygments
+    highlight: tango
     number_sections: yes
     toc: yes
     toc_depth: 2
 fontsize: 12pt
 geometry: margin=1in
 lang: fr
-documentclass: book
+documentclass: memoir
 urlcolor: blue
+header-includes:
+  - \usepackage{amsmath}
+  - \usepackage{tcolorbox}
 ---
 
 # R Markdown
@@ -90,6 +93,39 @@ $$\delta$$
 $$x \in S$$
 $$A \cup B$$
 $$\mu \pm 1.96 \sigma$$
+
+### Notions avancées
+
+Il est possible d'aligner certains caractères (= par exemple) dans l'environnement *aligned*. Pour changer de ligne, on utilise la commande $\\$
+
+$$\begin{aligned}
+\hat{m}' &= X_{Z,W} \\
+&= \sum_{i=1}^I \left(\frac{Z_i}{Z_{\bullet}}\right) X_{i,W}
+\end{aligned}$$
+
+Équation importante: $\boxed{\text{Équation très importante}}$
+
+Oversets/ Undersets: $E[\mu(\theta)] \overset{def}{=} \int_{-\infty}^{\infty} \mu(\theta) f_{\Theta}(\theta)$
+
+Matrices:
+\[
+S_t =
+\begin{bmatrix}
+  S_t^{(1)} \\
+  ... \\
+  S_t^{(N)} 
+\end{bmatrix}
+\]
+
+Fonctions par intervalle:
+$$\delta_{i,j}= 
+\begin{cases}
+    1,    & i=j\\
+    0,    & i\neq j
+\end{cases}$$
+
+
+### Notions supplémentaires
 
 La syntaxe des équations en R Markdown suit celle empruntée par le langage LaTeX. Ainsi, pour plus de détails, vous pouvez consulter les nombreuses rubriques d'aide sur le sujet  :
 
