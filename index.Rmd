@@ -58,22 +58,18 @@ Créé par John Gruber en 2004
 
 Dernière mise à jour en 2004
 
-## Markdown
-
 Langage de balisage léger : structure, équations, tableaux, titres, images, etc.
 
-Utilisateurs : 
+Utilisateurs :
 
 * Stack Overflow
 * Stack Exchange
 * Blogs
-      
+
 ## Markdown
 
-Langage de balisage léger : structure, équations, tableaux, titres, images, etc.
-
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_source_Markdown.jpg)
-    
+
 ## Exemples d'utilisation de Markdown
 
 ### Stack Overflow
@@ -97,8 +93,6 @@ Langage de balisage léger : structure, équations, tableaux, titres, images, et
 
 ## Markdown
 
-Langage de balisage léger : 
-
 - On se concentre sur la structure
 - Outils simples pour
     - Code
@@ -106,8 +100,10 @@ Langage de balisage léger :
     - Liens
     - Images
     - Listes
-    
-## Documentation Markdown
+
+## Markdown
+
+### Documentation
 
 [_Cheatsheet_ de la syntaxe](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
@@ -120,7 +116,7 @@ Langage de balisage léger :
 
 
 
-        
+
 # R Markdown
 
 ## R Markdown
@@ -157,7 +153,7 @@ Programmation lettrée
 
 - Automatisation
 
-- Conversion simple en plusieurs formats
+- Conversion simple vers plusieurs formats
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg)
 
@@ -181,9 +177,9 @@ RStudio :
 
 ## Options d'affichage du code R
 
-**echo** : affiche le code source si **TRUE** (par défaut)
+`echo` : affiche le code source si `TRUE` (par défaut)
 
-**eval** : exécute le code et affiche la sortie si **TRUE** (par défaut)
+`eval` : exécute le code et affiche la sortie si `TRUE` (par défaut)
 
 ## Options d'affichage du code R
 
@@ -214,7 +210,7 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RM
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RMarkdown_formats.jpg)
 
-- PDF (recquiert LaTeX)
+- PDF (requiert LaTeX)
 - HTML
 - Diapositives (HTML ou PDF)
 - Word
@@ -244,7 +240,7 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_RM
 <br>
 <br>
 
-Pour obtenir Tex 
+Pour obtenir Tex
 
 [Tutoriel d'installation de TeXLive](https://www.youtube.com/watch?v=z_dq3dns-WU)
 
@@ -274,7 +270,7 @@ Comment récupérer le code R contenu dans un document R Markdown?
 - Tout reste contenu dans le document .Rmd et peut être généré à partir de celui-ci
 
     - `render("Fichier.Rmd")` $\quad$ → $\quad$ PDF, Word, HTML
-    
+
     - `purl("Fichier.Rmd")` $\qquad$ → $\quad$ .R
 
 ## Exercice supplémentaire : Extraction du code R contenu dans un document R Markdown {.flexbox .vcenter}
@@ -349,7 +345,7 @@ Logiciel
 - *push* des fichiers automatique avec l'application
 
 
-## Dropbox 
+## Dropbox
 
 Logiciel
 
@@ -444,7 +440,7 @@ Démonstration d'une séance de travail
 
 [Intégrer Git à RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN)
 
-[Les logiciels de gestion de versions expliqués](http://betterexplained.com/articles/a-visual-guide-to-version-control/)  
+[Les logiciels de gestion de versions expliqués](http://betterexplained.com/articles/a-visual-guide-to-version-control/)
 * Les images des diapositives **Logiciel de gestion de versions...** proviennent de cette page
 
 [Git pour les nuls](http://yannesposito.com/Scratch/fr/blog/2009-11-12-Git-for-n00b/)
