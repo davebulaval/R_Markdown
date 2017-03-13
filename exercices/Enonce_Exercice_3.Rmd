@@ -3,9 +3,9 @@ title: "Exercice 3 : options d'affichage du code R"
 output: html_document
 ---
 
-## 
+##
 
-Dans votre éditeur de texte favori, créer un nouveau document **.Rmd** avec la même en-tête que celle de l'Exercice 2.
+Dans votre environnement de développement R, créer un nouveau document `.Rmd` avec la même en-tête que celle de l'Exercice 2.
 
 **Remarque** : copier le fichier de l'Exercice 2 sous un nouveau nom et supprimer le texte sous l'en-tête produirait le même résultat.
 

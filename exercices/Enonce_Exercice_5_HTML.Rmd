@@ -3,13 +3,13 @@ title: "Exercice 5 : personnalisation du format HTML"
 output: html_document
 ---
 
-## 
+##
 
 Télécharger le code source du document
 <a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_5_HTML.Rmd" download>Exercice_5_HTML.Rmd</a>
 et l'enregistrer dans un dossier pertinent.
 
-Ouvrir le fichier dans votre éditeur de texte favori.
+Ouvrir le fichier dans votre environnement de développement R.
 
 Compiler le fichier et observer le résultat.
 
@@ -27,7 +27,7 @@ Compiler le document à nouveau, puis observer les changements (indice : table d
 
 **Fermer le document HTML, car R Markdown sera incapable d'effectuer des modifications à celui-ci s'il est toujours ouvert au moment de la prochaine compilation.**
 
-Ajouter l'option `toc_float: TRUE` sous `toc: TRUE` : 
+Ajouter l'option `toc_float: TRUE` sous `toc: TRUE` :
 
 ![](C:\Users\Laurent\Documents\GitHub\OTC\images\img_enonce_exercice_5_HTML_2.jpg)
 

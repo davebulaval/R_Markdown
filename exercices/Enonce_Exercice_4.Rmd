@@ -7,7 +7,7 @@ Télécharger le code source du document
 <a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_4.Rmd" download>Exercice_4.Rmd</a>
 et l'enregistrer dans un dossier pertinent.
 
-Ouvrir le fichier dans votre éditeur de texte favori.
+Ouvrir le fichier dans votre environnement de développement R.
 
 Compiler le fichier tel quel. Un document HTML sera produit.
 
