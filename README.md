@@ -39,8 +39,8 @@ Ceci installera également des packages dépendants.
 
 Certaines fonctionnalités de RMarkdown requièrent une installation de LaTeX. Nous recommandons la distribution TeX Live. Les capsules vidéo suivantes expliquent la procédure d'installation:
 
-- [Installation sous Windows](https://youtu.be/7MfodhaghUk)
-- [Installation sous macOS](https://youtu.be/kA53EQ3Q47w)
+- [Installation sous Windows](https://www.youtube.com/watch?v=7MfodhaghUk&feature=youtu.be)
+- [Installation sous macOS](https://www.youtube.com/watch?v=kA53EQ3Q47w&feature=youtu.be)
 
 
 ***********************
