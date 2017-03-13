@@ -34,11 +34,13 @@ Ceci installera également des packages dépendants.
 
 #### 4. Installer TeX Live
 
-Certaines fonctionnalités de RMarkdown requièrent une installation de TeX. Nous recommandons la distribution TeX Live. Les capsules vidéo suivantes expliquent la procédure d'installation (simple mais longue, vu la taille de la distribution):
+> L'installation de TeX Live prend du temps! Procédez à l'installation
+> avant la formation.
 
-[Installation sous Windows](https://www.youtube.com/watch?v=z_dq3dns-WU)
+Certaines fonctionnalités de RMarkdown requièrent une installation de LaTeX. Nous recommandons la distribution TeX Live. Les capsules vidéo suivantes expliquent la procédure d'installation:
 
-[Installation sous OS X](https://www.youtube.com/watch?v=fjcR6lFy0c4)
+- [Installation sous Windows](https://youtu.be/7MfodhaghUk)
+- [Installation sous macOS](https://youtu.be/kA53EQ3Q47w)
 
 
 ***********************

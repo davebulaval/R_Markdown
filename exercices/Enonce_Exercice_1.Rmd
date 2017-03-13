@@ -3,14 +3,13 @@ title: "Exercice 1 : Installation de R Markdown"
 output: html_document
 ---
 
-## 
+##
 
-Ouvrir votre éditeur de texte favori.
+Ouvrir votre environnement de développement R.
 
 Dans l'invite de commande, taper les commandes suivantes :
 
 ```{r echo = TRUE, eval = FALSE}
 install.packages("rmarkdown")
-
 library(rmarkdown)
 ```

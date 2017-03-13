@@ -3,13 +3,13 @@ title: "Exercice 5 : personnalisation du format PDF"
 output: html_document
 ---
 
-## 
+##
 
 Télécharger le code source du document
 <a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_5_PDF.Rmd" download>Exercice_5_PDF.Rmd</a>
 et l'enregistrer dans un dossier pertinent.
 
-Ouvrir le fichier dans votre éditeur de texte favori.
+Ouvrir le fichier dans votre environnement de développement R.
 
 Compiler le fichier et ouvrir le document compilé.
 
@@ -27,7 +27,7 @@ Compiler le document à nouveau, puis observer les changements (indice : table d
 
 **Fermer le document PDF, car R Markdown sera incapable d'effectuer des modifications à celui-ci s'il est toujours ouvert au moment de la prochaine compilation.**
 
-Ajouter l'option `toc_depth: 1` sous `toc: TRUE` : 
+Ajouter l'option `toc_depth: 1` sous `toc: TRUE` :
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_5_PDF_2.jpg)
 

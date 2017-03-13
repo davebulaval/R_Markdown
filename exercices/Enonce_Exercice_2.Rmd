@@ -3,7 +3,7 @@ title: "Exercice 2 : compilation d'un fichier source"
 output: html_document
 ---
 
-## 
+##
 
 Télécharger le code source du document
 <a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_2.Rmd" download>Exercice_2.Rmd</a>
@@ -11,7 +11,7 @@ en cliquant droit sur le lien précédent, et en enregistrant le fichier sous un
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_2_1.jpg)
 
-Maintenant que votre code source **Exercice_2.Rmd** est enregistré, allez le retrouver et ouvrez-le dans votre éditeur de texte favori.
+Maintenant que votre code source **Exercice_2.Rmd** est enregistré, allez le retrouver et ouvrez-le dans votre environnement de développement R.
 
 Lancer la compilation en saisissant dans l'invite de commande R la ligne suivante :
 ```{r echo = TRUE, eval = FALSE}
