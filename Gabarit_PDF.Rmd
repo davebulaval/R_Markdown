@@ -163,66 +163,17 @@ Code dans une boîte :
 ## Utilisation de R dans des tableaux
 
 ```{r numero1, echo=FALSE}
-#code d'un fonction en vie #echo = FALSE -> ne pas afficher le code
-#pas important de comprendre le code R mais plutôt comment utiliser R dans du texte
-#si on change le code (par exemple les variables) notre tableau va suivre
-mu_x <- function(x, a = 0.00022, b = 2.7 * 10^(-6), c = 1.124)
-{
-  a + b * c^x
-}
 
-mu_xs <- function(x, s)
-{
-  if (s <= 2)
-  {
-    0.9^(2 - s) * mu_x(x+s)
-  }
-  else
-  {
-    mu_x(x + s)
-  }
-}
+x <- c(1,2,3,4,5,6)
 
-
-x <- 30
-delta <- 0.03
-pi <-  2500
-b <-  100000
-
-t_hV <- function(n, h, t)
-{
-  terminaison = ((t - n) / h + 1)
-  k <- seq(from = h, to = n, by = h)
-  V <- numeric((t - n) / h + 1)
-  V[terminaison] <- b
-  for (i in 0 : length(V)) 
-  {
-    if (terminaison - i -1 < 0)
-    {
-      V
-    }
-    else
-    {
-      V[terminaison - i - 1]  <-  (V[terminaison - i] - h*(pi - b * mu_x(x + t -k[i+1]))) / (1 + h * delta + h * mu_x(x + t - k[i+1]))
-    }
-  }
-  V
-}
-
-# (i) Pour h = 0.1
-reserves_1 <- (t_hV(20, 0.1, t = 30))
-
-
-# (ii) Pour h = 0.01
-reserves_2 <- (t_hV(20, 0.01, t = 30))
 
 ```
 
-Le tableau\footnote{Le code R se situe en annexe.} ci-dessous fournit les réserves au temps $t$
+Ci-dessous fournit les réserves au temps $t$
 
 | $t$  |  30 | 29.9  |  29.8 | 29.7  | ...  | 20.1  |  20 |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-| $V_t$  | `r prettyNum(reserves_1[101], digits = 7)`  | `r prettyNum(reserves_1[100], digits = 7)` | `r prettyNum(reserves_1[99], digits = 7)`  | `r prettyNum(reserves_1[98], digits = 7)` | ...  |  `r prettyNum(reserves_1[2], digits = 7)`|  `r prettyNum(reserves_1[1], digits = 7)` |
+| $X_t$  | `r prettyNum(x[1], digits = 7)`  | `r prettyNum(x[2], digits = 7)` | `r prettyNum(x[3], digits = 7)`  | `r prettyNum(x[4], digits = 7)` | ...  |  `r prettyNum(x[5], digits = 7)`|  `r prettyNum(x[6], digits = 7)` |
 
 
 
