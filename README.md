@@ -16,7 +16,7 @@ Présentateurs : Samuel Lévesque et David Beauchemin
 
 #### 1. Mise à jour de R
 
-S'assurer d'avoir la version de R la plus à jour (3.3.2 — le numéro de version s'affiche au démarrage de R).
+S'assurer d'avoir la version de R la plus à jour (3.3.3 — le numéro de version s'affiche au démarrage de R).
 
 #### 2. Mise à jour de RStudio ou GNU Emacs
 
