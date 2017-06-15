@@ -4,6 +4,9 @@ Présentation faite sous forme d'atelier optionnel offerte par l'école d'actuar
 
 L'atelier consite en une présentation entrecoupée d'exemples et d'exercices. Les sujets traités sont R Markdown et les outils de travail collaboratifs.
 
+Cette présentation comprends un [site web](https://davebulaval.github.io/OTC/) en soutien à la présentation.
+
+
 ***********************
 
 ## 17 mars 2017
