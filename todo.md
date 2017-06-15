@@ -1,2 +1,0 @@
-- [x] Mise à jours des exercices supplémentaires
-- [x] Modification 
