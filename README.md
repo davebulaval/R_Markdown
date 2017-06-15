@@ -19,11 +19,11 @@ Présentateurs : Samuel Lévesque et David Beauchemin
 
 #### 1. Mise à jour de R
 
-S'assurer d'avoir la version de R la plus à jour (3.3.3 — le numéro de version s'affiche au démarrage de R).
+S'assurer d'avoir la version de R la plus à jour (3.4.1 — le numéro de version s'affiche au démarrage de R).
 
 #### 2. Mise à jour de RStudio ou GNU Emacs
 
-La formation sera beaucoup basée sur l'utilisation de RStudio, avec aussi des indications pour GNU Emacs. Assurez-vous d'avoir les versions les plus à jour de votre éditeur de texte favori. RStudio: 1.0.136. La distribution de GNU Emacs de Vincent Goulet: 24.5.1-modified-6.
+La formation sera beaucoup basée sur l'utilisation de RStudio, avec aussi des indications pour GNU Emacs. Assurez-vous d'avoir les versions les plus à jour de votre éditeur de texte favori. RStudio: 1.0.143. La distribution de GNU Emacs de Vincent Goulet: 25.2-modified-3.
 
 #### 3. Installation du package rmarkdown
 
