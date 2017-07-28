@@ -28,11 +28,12 @@ $\quad$ Analyste en actuariat chez DGAG, promotion 2015
 ## Plan de match
 
 ### Markdown
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_Markdown_logo.png)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_Markdown_logo.png)
+
 
 ### R Markdown
 
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_RMarkdownReference.png)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_RMarkdownReference.png)
 
 
 # Markdown
@@ -53,28 +54,28 @@ Utilisateurs :
 
 ## Markdown
 
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_source_Markdown.jpg)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_source_Markdown.jpg)
 
 ## Exemples d'utilisation de Markdown
 
 ### Stack Overflow
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_stack_overflow.jpg)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_stack_overflow.jpg)
 
 ## Exemples d'utilisation de Markdown
 
 ### Stack Overflow
 
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_stack_overflow_source.jpg)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_stack_overflow_source.jpg)
 
 ## Exemples d'utilisation de Markdown
 
 ### Stack Exchange
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_stack_exchange.jpg)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_stack_exchange.jpg)
 
 ## Exemples d'utilisation de Markdown
 
 ### Stack Exchange
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_stack_exchange_source.jpg)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_stack_exchange_source.jpg)
 
 ## Markdown
 
@@ -101,7 +102,7 @@ Utilisateurs :
 
 ## R Markdown
 
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_TP_intro_II.JPG)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_TP_intro_II.JPG)
 
 <br>
 
@@ -123,7 +124,7 @@ Programmation lettrée
 
 ## Étapes de compilation
 
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_3_panneaux_Rmarkdown_flowchart.jpg)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_3_panneaux_Rmarkdown_flowchart.jpg)
 
 ## Avantages
 
@@ -135,7 +136,7 @@ Programmation lettrée
 
 - Conversion simple vers plusieurs formats
 
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_RMarkdown_formats.jpg)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_RMarkdown_formats.jpg)
 
 ## Exercice 1 : Installation de R Markdown {.flexbox .vcenter}
 
@@ -147,7 +148,7 @@ Programmation lettrée
 
 ## Balises du code R
 
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_balises.jpg)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_balises.jpg)
 
 RStudio :
 
@@ -163,20 +164,20 @@ RStudio :
 
 ## Options d'affichage du code R
 
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_options_affichage.jpg)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_options_affichage.jpg)
 
 ## R Markdown
 
 Extrait du travail pratique
 
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_TP_intro_II_rapport.jpg)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_TP_intro_II_rapport.jpg)
 
 ## R Markdown
 
 Solution : simplement en affichant le data.frame
 
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_3_panneaux_solution_TP.jpg)
-$\qquad \qquad \quad$ ![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_RMarkdownFlow.png)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_3_panneaux_solution_TP.jpg)
+$\qquad \qquad \quad$ ![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_RMarkdownFlow.png)
 
 ## Exercice 3 : Options d'affichage du code R {.flexbox .vcenter}
 
@@ -184,11 +185,11 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/ima
 
 ## Solution Exercice 3
 
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images\img_solution_exercice_3.jpg)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images\img_solution_exercice_3.jpg)
 
 ## Formats R Markdown
 
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_RMarkdown_formats.jpg)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_RMarkdown_formats.jpg)
 
 - PDF (requiert LaTeX)
 - HTML
@@ -204,7 +205,7 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/ima
 - Tout passe par l'en-tête
 - La syntaxe est importante → respecter indentations et "`:`"
 
-![](https://rawgit.com/davebulaval/R_Markdown/gh-pages/images/img_enonce_exercice_5_HTML_3.jpg)
+![](https://rawgit.com/davebulaval/R_Markdown/master/images/img_enonce_exercice_5_HTML_3.jpg)
 
 ## Exercice 5 : Personnalisation du format
 
