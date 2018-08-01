@@ -1,7 +1,7 @@
 ---
 title: "Gabarit PDF"
 author: "David Beauchemin et Samuel Lévesque"
-date: "17 mars 2017"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
 output:
   pdf_document:
     fig_caption: yes
