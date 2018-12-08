@@ -5,7 +5,7 @@ output:
 ---
 
 Télécharger le code source du document
-<a href="https://rawgit.com/LCULaval/OTC/gh-pages/Outils_supp.Rmd" download>Outils_supp.Rmd</a>
+<a href="https://cdn.jsdelivr.net/gh/LCULaval/OTC@gh-pages/Outils_supp.Rmd" download>Outils_supp.Rmd</a>
 et l'enregistrer dans un dossier pertinent.
 
 Compiler le document, puis comparer le code source au résultat final.
