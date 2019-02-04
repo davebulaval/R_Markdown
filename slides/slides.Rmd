@@ -185,7 +185,7 @@ $\qquad \qquad \quad$ ![](https://rawgit.com/davebulaval/R_Markdown/master/image
 
 ## Solution Exercice 3
 
-![](https://rawgit.com/davebulaval/R_Markdown/master/images\img_solution_exercice_3.jpg)
+![](https://cdn.jsdelivr.net/gh/davebulaval/R_Markdown/images\img_solution_exercice_3.jpg)
 
 ## Formats R Markdown
 

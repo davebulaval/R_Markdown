@@ -25,6 +25,6 @@ en prenant bien soin de remplacer `C:\\Chemin\\vers\\le\\fichier` par le vérita
 Cette solution rend le tout plus automatique et créera une nouvelle version .R à chaque compilation de la version .Rmd.
 
 Par exemple, supposons que tout votre travail est contenu dans le fichier
-<a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_Supp_extraction.Rmd" download>Exercice_Supp_extraction.Rmd</a>. Enregistrez-le sur votre poste de travail et compilez-le pour voir l'effet de la fonction `purl` lorsqu'appelée automatiquement.
+<a href="https://cdn.jsdelivr.net/gh/LCULaval/OTC@gh-pages/exercices/Exercice_Supp_extraction.Rmd" download>Exercice_Supp_extraction.Rmd</a>. Enregistrez-le sur votre poste de travail et compilez-le pour voir l'effet de la fonction `purl` lorsqu'appelée automatiquement.
 
 **Remarque** : Tout comme lors de l'exécution manuelle de la fonction `purl`, vous aurez à changer le chemin d'accès vers le fichier **.Rmd**.

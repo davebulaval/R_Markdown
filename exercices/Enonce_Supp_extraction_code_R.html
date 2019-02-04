@@ -116,14 +116,14 @@ $(document).ready(function () {
 
 
 <p>Pour extraire tout le code source R ayant servi à générer les résultats d’un document compilé avec R Markdown, utiliser la fonction <code>purl</code> du package <strong>knitr</strong>. Cette fonction sert à extraire tous les <em>chunks</em> de code R présents dans un fichier .Rmd et à les rassembler dans un fichier .R dans le dossier où se trouve votre fichier .Rmd.</p>
-<p>Par exemple, supposons que tout votre travail est contenu dans le fichier <a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_2.Rmd" download>Exercice_2.Rmd</a> , mais qu’on vous demande seulement de fournir le code source R de votre travail.</p>
+<p>Par exemple, supposons que tout votre travail est contenu dans le fichier <a href="https://cdn.jsdelivr.net/gh/LCULaval/OTC@gh-pages/exercices/Exercice_2.Rmd" download>Exercice_2.Rmd</a> , mais qu’on vous demande seulement de fournir le code source R de votre travail.</p>
 <p>Vous pouvez appeler la fonction <code>purl</code> directement depuis l’invite de commande R :</p>
 <pre class="r"><code>  library(knitr)
   purl(&quot;C:\\Chemin\\vers\\le\\fichier\\Exercice_2.Rmd&quot;)</code></pre>
 <p>en prenant bien soin de remplacer <code>C:\\Chemin\\vers\\le\\fichier</code> par le véritable chemin où se trouve votre fichier.</p>
 <p>Plutôt que de saisir cette ligne manuellement à chaque fois que vous compilez votre code source, vous pouvez ajouter un <em>chunk</em> R à la toute fin de votre fichier <strong>.Rmd</strong> contenant la ligne. Pour ce faire, vous devrez spécifier dans les options du <em>chunk</em> l’option <code>include = FALSE</code>, qui permettra à R d’évaluer la ligne sans afficher quoi que ce soit dans votre travail.</p>
 <p>Cette solution rend le tout plus automatique et créera une nouvelle version .R à chaque compilation de la version .Rmd.</p>
-<p>Voir le code source de cet énoncé pour un exemple : <a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Enonce_Supp_extraction_code_R.Rmd" download>Enonce_Supp_extraction_code_R.Rmd</a></p>
+<p>Voir le code source de cet énoncé pour un exemple : <a href="https://cdn.jsdelivr.net/gh/LCULaval/OTC@gh-pages/exercices/Enonce_Supp_extraction_code_R.Rmd" download>Enonce_Supp_extraction_code_R.Rmd</a></p>
 <p><strong>Remarque</strong> : Tout comme lors de l’exécution manuelle de la fonction <code>purl</code>, vous aurez à changer le chemin d’accès vers le fichier <strong>.Rmd</strong>.</p>
 
 

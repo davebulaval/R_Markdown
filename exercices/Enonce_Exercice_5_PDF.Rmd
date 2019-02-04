@@ -6,7 +6,7 @@ output: html_document
 ##
 
 Télécharger le code source du document
-<a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_5_PDF.Rmd" download>Exercice_5_PDF.Rmd</a>
+<a href="https://cdn.jsdelivr.net/gh/LCULaval/OTC@gh-pages/exercices/Exercice_5_PDF.Rmd" download>Exercice_5_PDF.Rmd</a>
 et l'enregistrer dans un dossier pertinent.
 
 Ouvrir le fichier dans votre environnement de développement R.

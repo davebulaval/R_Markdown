@@ -6,7 +6,7 @@ output: html_document
 ##
 
 Télécharger le code source du document
-<a href="https://rawgit.com/LCULaval/OTC/gh-pages/exercices/Exercice_2.Rmd" download>Exercice_2.Rmd</a>
+<a href="https://cdn.jsdelivr.net/gh/LCULaval/OTC@gh-pages/exercices/Exercice_2.Rmd" download>Exercice_2.Rmd</a>
 en cliquant droit sur le lien précédent, et en enregistrant le fichier sous un répertoire pertinent où vous compilerez vos fichiers. Par défaut, le document sera compilé au même endroit que le code source, alors assurez-vous que le code source se trouve à un endroit pertinent et facile à retrouver.
 
 ![](https://rawgit.com/LCULaval/OTC/gh-pages/images/img_enonce_exercice_2_1.jpg)
